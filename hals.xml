@@ -2,11 +2,11 @@
 <manifest>
         <remote name="aosp-11" fetch="https://github.com/AOSP-11" />
         
-        <remove-project name="hardware/qcom/display/msm8998" />
-        <remove-project name="hardware/qcom/media/msm8998" />
-        <remove-project name="hardware/qcom/audio/msm8998" />
-        <project path="hardware/qcom/display" name="hardware_qcom-caf_display_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
-        <project path="hardware/qcom/media" name="hardware_qcom-caf_media_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
-        <project path="hardware/qcom/audio" name="hardware_qcom-caf_audio_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        <remove-project name="hardware/qcom-caf/display/msm8998" />
+        <remove-project name="hardware/qcom-caf/media/msm8998" />
+        <remove-project name="hardware/qcom-caf/audio/msm8998" />
+        <project path="hardware/qcom-caf/display/msm8998" name="hardware_qcom-caf_display_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        <project path="hardware/qcom-caf/media/msm8998" name="hardware_qcom-caf_media_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        <project path="hardware/qcom-caf/audio/msm8998" name="hardware_qcom-caf_audio_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
         
 </manifest>
