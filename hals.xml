@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+        <remote name="aosp-11" fetch="https://github.com/AOSP-11" />
+        
+        <remove-project name="hardware/qcom/display" />
+        <remove-project name="hardware/qcom/media" />
+        <remove-project name="hardware/qcom/audio" />
+        <project path="hardware/qcom/display" name="hardware_qcom-caf_display_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        <project path="hardware/qcom/media" name="hardware_qcom-caf_media_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        <project path="hardware/qcom/audio" name="hardware_qcom-caf_audio_msm8998" remote="aosp-11" revision="11" clone-depth="1" />
+        
+</manifest>
