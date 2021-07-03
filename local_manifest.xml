@@ -7,5 +7,6 @@
         <project path="kernel/xiaomi/sdm660" name="UghTea" remote="D4rkKnight21" revision="def-freq" clone-depth="1" />
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="D4rkKnight21" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="D4rkKnight21" revision="11" clone-depth="1" />
+        <project path="device/sepolicy/legacy-um" name="device_sepolicy_legacy-um" remote="D4rkKnight21" revision="extended" clone-depth="1" />
         
 </manifest>
