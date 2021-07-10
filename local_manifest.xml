@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="D4rkKnight21" fetch="https://github.com/D4rkKnight21" />
-        <!--remote name="pe" fetch="https://github.com/PixelExperience" /-->
+	
+		<!--Remote/-->
+		<remote name="D4rkKnight21" fetch="https://github.com/D4rkKnight21" />
+        <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="loss" fetch="https://github.com/LineageOS" />
         
+        <!--Device Trees/-->
         <project path="device/xiaomi/platina" name="device_xiaomi_platina" remote="D4rkKnight21" revision="cafex" clone-depth="1" />
         <project path="device/xiaomi/sdm660-common" name="device_xiaomi_sdm660-common" remote="D4rkKnight21" revision="caf" clone-depth="1" />
         <project path="kernel/xiaomi/sdm660" name="UghTea" remote="D4rkKnight21" revision="def-freq" clone-depth="1" />
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="D4rkKnight21" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="D4rkKnight21" revision="11" clone-depth="1" />
+
+        <!--Sepolicy legacy um/-->
         <project path="device/qcom/sepolicy-legacy-um" name="device_sepolicy_legacy-um" remote="D4rkKnight21" revision="extended" clone-depth="1" />
+
+        <!--Hardware Google Pixel/-->
         <project path="hardware/google/pixel" name="hardware_google_pixel" remote="D4rkKnight21" revision="caf" clone-depth="1" />
-        <!--project path="hardware/qcom-caf/msm8998/audio" name="hardware_qcom-caf_msm8998_audio" remote="pe" revision="eleven" clone-depth="1" /-->
-        <!--project path="hardware/qcom-caf/msm8998/display" name="hardware_qcom-caf_msm8998_display" remote="pe" revision="eleven" clone-depth="1" /-->
-        <!--project path="hardware/qcom-caf/msm8998/media" name="hardware_qcom-caf_msm8998_media" remote="pe" revision="eleven" clone-depth="1" /-->
+        
+        <!--Device Settings/-->
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="loss" revision="lineage-18.1" clone-depth="1" />
+        
+        <!--clang/-->
+        <remove project-name="prebuilts/clang/host/linux-x86" />
+        <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
              
 </manifest>
