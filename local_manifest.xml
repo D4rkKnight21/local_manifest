@@ -7,7 +7,7 @@
         <project path="kernel/xiaomi/sdm660" name="UghTea" remote="D4rkKnight21" revision="def-freq" clone-depth="1" />
         <project path="vendor/xiaomi/platina" name="vendor_xiaomi_platina" remote="D4rkKnight21" revision="11" clone-depth="1" />
         <project path="vendor/xiaomi/sdm660-common" name="vendor_xiaomi_sdm660-common" remote="D4rkKnight21" revision="11" clone-depth="1" />
-        <remove-project name="build/make" />
+        <remove-project name="android_build" />
         <!-- Build Repos -->
        <project path="build/make" name="android_build" groups="pdk" remote="D4rkKnight21" >
          <copyfile src="core/root.mk" dest="Makefile" />
