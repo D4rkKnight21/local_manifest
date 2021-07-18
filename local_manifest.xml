@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	
-		<!--Remote/-->
-		<remote name="D4rkKnight21" fetch="https://github.com/D4rkKnight21" />
+	<!--Remote/-->
+	<remote name="D4rkKnight21" fetch="https://github.com/D4rkKnight21" />
         <remote name="kdrag0n" fetch="https://github.com/kdrag0n" />
         <remote name="loss" fetch="https://github.com/LineageOS" />
         
@@ -23,7 +23,6 @@
         <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="loss" revision="lineage-18.1" clone-depth="1" />
         
         <!--clang/-->
-        <remove project-name="prebuilts/clang/host/linux-x86" />
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="kdrag0n" revision="master" clone-depth="1"/>
              
 </manifest>
